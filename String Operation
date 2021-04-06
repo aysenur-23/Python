@@ -1,0 +1,40 @@
+strvar = "Python"
+print(strvar)
+
+strvar[2] #2. indexi yazdır
+
+strvar[2:] #2. indexten sona kadar alır
+
+strvar[:3] #baştan 3. değere kadar alır
+
+strvar[2:5] #5 dahil olmadan 2den 5e kadar alır
+
+strvar[::2] # 1 değeri atlayarak 2. değeri  alır
+
+strvar[1:5:3]
+
+strvar= strvar + " Ogren!" #stringleri toplar ve strvar'a atar
+strvar
+
+strvar * 5  #5 kez yazdırır
+
+strvar.upper() #harflerin hepsini büyük yazar
+
+strvar= strvar.upper() #tüm harfleri büyük yazıp strvar'a atar
+print(strvar)
+strvar.lower() #tüm harfleri küçük yazar
+
+strvar = strvar + "ogren!" 
+strvar
+
+print(strvar.split()) #kelimeleri ayırıp listeye atar
+
+print(strvar.split('!') #ünlemden ayırır
+
+len(strvar) #stringin uzunlugunu bulur
+
+print(strvar.split("O")) #o'dan ayır
+
+print(strvar.split(sep="O", maxsplit=1))  #maxsplit ile kaç kere bölebileceğimizi belirtiyoruz
+
+
