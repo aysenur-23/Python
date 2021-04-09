@@ -1,0 +1,46 @@
+liste = ['a','b','c','d','e']
+print(liste)
+
+liste = liste + ['f', 23]
+liste
+
+liste[3:5]
+
+liste.append('g')    #geri atamadık ama listeye g'yi ekleyip liste ye atar
+liste
+
+liste.append('g')     #geri atamadık ama listeye g'yi ekleyip liste ye atar
+liste
+
+liste = ['a','b','c','d','e','f','g']
+liste.pop(5)   #listenin 5. elemanını atar
+print(liste)
+
+sayilar= [123,251,23,154,123556,1,2]
+sayilar.sort()   #sıralama yapar
+sayilar
+
+sayilar.reverse()   #ters çevirir
+print(sayilar)
+
+set(sayilar)    #tekrar eden sayıları 1 kere yazar, sayıları sıralar ve {} arasında yazar set biçimine çevirir
+
+list=['Elazığ','Eskişehir','Erzurum','Edirne','Erzincan','Elazığ']
+print(list)
+
+tup=('Elazığ','Eskişehir','Erzurum','Edirne','Erzincan','Elazığ')
+print(tup)
+
+list[0] = 1223
+list
+
+ # tup[0] = 1223 tup'un özelliği sebsebiyle herhangi bir elemanını değiştiremeyiz
+ 
+ print(tup.count('Eskişehir')) #elemanını kaç kere olduğunu sorgulama
+print(tup.count('Elazığ'))
+
+tup.count('b') # 0 tane olduğunu söyler
+
+tup.index('Eskişehir') #aradığım ifadenin yerini soruyorum 
+tup.index('Elazığ') #ifadeden iki tane varsa ilkinin indexini verir
+ 
