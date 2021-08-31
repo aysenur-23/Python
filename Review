@@ -6,7 +6,7 @@ print(5%4)
 
 print(type(2.3 + 4.7))
 
-strvar = 'Yakin Kampüs'
+strvar = 'Ayse Nur Aslan'
 strvar[10]
 
 strvar.index('ü')
