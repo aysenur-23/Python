@@ -2,10 +2,10 @@ dict1 = {'isim': 'Mesut', 'yas':32, 'lokasyon': 'Berlin'}
 dict1
 
 dict2 = {
-    'isim': 'Mesut',
-    'yas': 32,        
-    'YasadıgıSehir': 'Berlin',
-    'DogduguSehir': 'İstanbul' 
+    'isim': 'Aysenur',
+    'yas': 20,        
+    'YasadıgıSehir': 'Elazığ',
+    'DogduguSehir': 'Erzurum' 
 } 
 dict2
 
@@ -37,7 +37,7 @@ dict2.keys() #anahtar kelimeleri getirir isim,yas vb
 
 dict3.keys()
 
-dict2.values() #keylere karşılık gelen değerleri alır
+dict2.values() # keylere karşılık gelen değerleri alır
 
 dict3.items() # keyleri ve değerleri birlikte alır
 
