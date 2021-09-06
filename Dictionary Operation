@@ -41,3 +41,13 @@ dict2.values() # keylere karşılık gelen değerleri alır
 
 dict3.items() # keyleri ve değerleri birlikte alır
 
+
+
+dict = {
+    "ad" : "Aysenur",
+     "soyad":"Aslan"
+}
+print(dict.items())
+
+for v,k in dict.items():
+    print("Key: {}\t value: {}".format(v,k))
