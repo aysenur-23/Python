@@ -51,3 +51,36 @@ print(dict.items())
 
 for v,k in dict.items():
     print("Key: {}\t value: {}".format(v,k))
+    
+    
+kullanici1 = {
+    'ad' : 'Ali',
+    'soyad' : 'Sen',
+    'uzmanlık' : ['front-end']
+}
+
+kullanici2 = {
+    'ad': 'Melike',
+    'soyad': 'Elitok',
+    'uzmanlık' : 'Anestezi'
+}
+
+kullanici3 = {
+    'ad': 'Esra',
+    'soyad': 'Çiftçi',
+    'uzmanlık': ['front-end']
+}
+# ilk kullanıcının uzmanlık alanı
+print(kullanici1.get('uzmanlık'))
+print(kullanici1['uzmanlık'])
+
+# front-end'de uzmanlığı olan kişileri bulunuz
+list = [kullanici3,kullanici2,kullanici1]
+
+for user in enumerate(list):
+   if user('uzmanlık') == ['front-end']:
+       print(user('ad'))
+       
+       
+       
+       
